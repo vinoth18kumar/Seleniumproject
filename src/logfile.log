@@ -1,0 +1,4 @@
+2020-05-30 20:43:13,674 INFO  [xmlconfigurationexample] This is as info 
+2020-05-30 20:43:13,674 WARN  [xmlconfigurationexample] this is a warn 
+2020-05-30 20:43:13,674 ERROR [xmlconfigurationexample] this is a error 
+2020-05-30 20:43:13,675 FATAL [xmlconfigurationexample] this is a fatal 

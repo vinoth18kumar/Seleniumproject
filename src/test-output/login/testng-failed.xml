@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="login testcases(failed)" verbose="2">
+    <classes>
+      <class name="loginTestCases.login">
+        <methods>
+          <include name="driver"/>
+          <include name="loginwithcorrectcredential" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- loginTestCases.login -->
+    </classes>
+  </test> <!-- login testcases(failed) -->
+</suite> <!-- Failed suite [login] -->

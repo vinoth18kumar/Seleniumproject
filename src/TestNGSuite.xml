@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGSuite" verbose="2" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="testNGTutorial.ListenersExample"></listener>
+</listeners>
+<test name="Testcase">
+<classes>
+<class name="testNGTutorial.Sampletestcase"></class>
+</classes>
+</test>
+</suite>
+
+
+<!-- <groups>
+<run>
+<include name="apple"></include>
+<include name="realme"></include>
+</run>
+</groups>
+
+<exclude name=""></exclude>
+
+<parameter name="fruit" value="apple"></parameter>
+
+<class name="testNGTutorial.DependanciesManagment"></class>
+<class name="testNGTutorial.ParellelTestingExample"></class>
+<class name="testNGTutorial.ParameterizationExample"></class>
+<class name="testNGTutorial.GroupingExample"></class>
+<class name="testNGTutorial.DriverACar"></class>
+<class name="testNGTutorial.Sampletestcase"></class> -->
